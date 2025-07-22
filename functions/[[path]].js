@@ -13,7 +13,7 @@ const defaultSettings = {
   mytoken: 'auto',
   profileToken: 'profiles',
   subConverter: 'url.v1.mk',
-  subConfig: 'https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_Online_Full.ini',
+  subConfig: 'https://raw.githubusercontent.com/wkjw/sh/refs/heads/main/all_CF.ini',
   prependSubName: true,
   NotifyThresholdDays: 3, 
   NotifyThresholdPercent: 90 
