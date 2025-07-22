@@ -83,7 +83,7 @@ export function prependNodeName(link, prefix) {
       return link;
   }
 
-  const newName = `${prefix} - ${originalName}`;
+  const newName = `${originalName} - ${prefix}`;
   return `${baseLink}#${encodeURIComponent(newName)}`;
 }
 
