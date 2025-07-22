@@ -476,7 +476,7 @@ function prependNodeName(link, prefix) {
     if (originalName.startsWith(namePrefix)) {
         return baseLink;
     }
-    const newName = originalName ? `${namePrefix} - ${originalName}` : namePrefix;
+    const newName = originalName ? `${originalName} - ${prefix}` : prefix;
     return `${base}#${encodeURIComponent(newName)}`;
   }
   if (link.startsWith('vmess://')) {
